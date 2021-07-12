@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import logo from './../assets/images/logo.svg';
 
 class App extends Component {
-    public render() {
+    render() {
         return (
             <div className="app">
                 <header className="app-header">
