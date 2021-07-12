@@ -1,0 +1,42 @@
+###############################
+# Core EditorConfig Options   #
+###############################
+
+root = true
+
+# All files
+[*]
+charset = utf-8
+indent_size = 4
+indent_style = space
+trim_trailing_whitespace = true
+
+# Markdown
+[*.{md,txt}]
+trim_trailing_whitespace = false
+
+# JSON & YAML project files
+[*.{json,yaml,yml}]
+indent_size = 2
+
+[*.{conf}]
+indent_size = 4
+
+# Xml project files
+[*.{csproj,vcxproj,vcxproj.filters,proj,nativeproj,locproj}]
+indent_size = 2
+
+# Xml config files
+[*.{xml,props,targets,config,nuspec}]
+indent_size = 2
+
+# Code files
+[*.{css,sass,scss}]
+indent_size = 2
+charset = utf-8-bom
+insert_final_newline = true
+
+# Code files
+[*.{cs,csx,vb,vbx,tsx,ts,js}]
+charset = utf-8-bom
+insert_final_newline = true
