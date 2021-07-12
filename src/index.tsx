@@ -1,9 +1,9 @@
-import './index.css';
+import './index.scss';
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 
-import App from './components/app.component';
+import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import reportWebVitals from './reportWebVitals';
 

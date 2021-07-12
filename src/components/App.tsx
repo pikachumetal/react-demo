@@ -1,10 +1,10 @@
-import './app.component.css';
+import './App.scss';
 
-import React, { Component } from 'react';
+import * as React from 'react';
 
 import logo from '../assets/images/logo.svg';
 
-class App extends Component {
+class App extends React.PureComponent {
     render(): JSX.Element {
         return (
             <div className="app">
