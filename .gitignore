@@ -1,10 +1,40 @@
-.eunit
-deps
-*.o
-*.beam
-*.plt
-erl_crash.dump
-ebin/*.beam
-rel/example_project
-.concrete/DEV_MODE
-.rebar
+# Visual Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Other editors
+*.log*
+chrome-user-data
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
+
+# Local History for Visual Studio Code
+.history/
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
